@@ -1,0 +1,62 @@
+body{
+    font-family: 'Lobster', sans-serif;
+}
+.home{
+    background-image: url('../images/bg.jpeg');
+    background-position: center center;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    padding-bottom: 40px;
+    font-size: 3rem;
+}
+.content p{
+    
+    font-size: 2rem;
+    font-family: 'Lobster Two', sans-serif;
+    padding-inline: 5px;
+}
+.content button{
+    padding: 25px;
+    font-size: 2rem;
+   margin-bottom: 20px;
+    
+}
+ button{
+    background-color: #DFD8D2;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+ }
+/* ====================== Start Media Query ======================*/
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+    html{
+        font-size: 10px;
+       }
+    .content p{
+        
+        padding-inline: 10px;
+    }
+    .home{
+       
+        background-size: cover;
+
+    }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (min-width: 576px) {
+ }
+
+ /* ====================== End Media Query ======================*/
